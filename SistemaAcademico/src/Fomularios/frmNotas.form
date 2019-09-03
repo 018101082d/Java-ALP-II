@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="83" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="btnAprobar" max="32767" attributes="0"/>
+                          <Component id="btnDesaprobar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="btnRegistrar" max="32767" attributes="0"/>
+                          <Component id="btnMostrar" min="-2" pref="79" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblAF" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblINF" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblRS" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAporte1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAporte2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAporte3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblNotaFi" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="txtINF" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtRS" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtAporte1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtAporte2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtAporte3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtNotaFi" max="32767" attributes="0"/>
+                          <Component id="txtAF" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnRegistrarAP1" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnRegistrarAP2" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnRegistrarAP3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblINF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtINF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblRS" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtRS" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAporte1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAporte1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnRegistrarAP1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAporte2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAporte2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnRegistrarAP2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAporte3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAporte3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnRegistrarAP3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNotaFi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNotaFi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnAprobar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnRegistrar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnMostrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnDesaprobar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblAF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AF"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblINF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="INF"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRS">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAporte1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aporte 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAporte2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aporte 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAporte3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aporte 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNotaFi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nota Final"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAprobar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aprobar ()"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[2, 10, 2, 10]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDesaprobar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desaprobar ()"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[2, 10, 2, 10]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRegistrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registrar ()"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[2, 10, 2, 10]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMostrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mostrar ()"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[2, 10, 2, 10]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtINF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRS">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAporte1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAporte2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAporte3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNotaFi">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRegistrarAP1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RegistrarAP1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRegistrarAP2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RegistrarAP2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRegistrarAP3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RegistrarAP3"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
